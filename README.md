@@ -1,3 +1,3 @@
-npm install --global expo-cli
+yarn add --global expo-cli
 expo init trabalho-react
-npm start
+yarn start
