@@ -5,6 +5,7 @@ import { globalStyles } from "../../../src/global/global";
 
       background: #0B0E22;
       flex: 1;
+      alignItems: center
       
 
 
@@ -15,8 +16,7 @@ import { globalStyles } from "../../../src/global/global";
       color: white;
       font-size: 32px;
       fontFamily: KleeOne_600SemiBold;
-      marginLeft: 42px;
-      marginTop: 7px;
+      
      
       
     `;
