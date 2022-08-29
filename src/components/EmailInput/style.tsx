@@ -9,6 +9,7 @@ border:white;
 border-radius:29;
 height:58;
 width: 272;
+
 alignItems: center;
 background: white;
 

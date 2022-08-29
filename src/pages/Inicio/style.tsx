@@ -4,47 +4,50 @@ import { globalStyles } from "../../../src/global/global";
    export const Container = styled.View`
 
       background: #0B0E22;
+      display: flex;
       flex: 1;
-      alignItems: center
+      align-items: center;
+   
       
 
 
-    `;
+    `
 
     export const TextoCentro = styled.Text`
     
       color: white;
       font-size: 32px;
-      fontFamily: KleeOne_600SemiBold;
+      font-Family: KleeOne_600SemiBold;
+      margin-left: 31px;
+      
+
       
      
       
-    `;
+    `
     export const LogoReuse = styled.Image`
       
        width:290px;
        height: 137px;
-       marginTop: 82px;
-       marginLeft:42px;
+       margin-top: 82px;
+       margin-right:30px;
 
 
     `
     export const ImagemPessoa = styled.ImageBackground`
        
-       width:430px;
-       height:450px;
-       marginTop:43px;
+       width:410px;
+       height:440px;
+       margin-top: 62 ;
        position: relative;
        
-      j
+       
+      
 
     `
-    export const BotãoLogin = styled.Image`
-       
-       width:149px;
-       height:60px;
+    export const BotãoLogin = styled.View`
        position: absolute;
-       marginTop: 730px;
-       marginLeft: 199px
+       margin-top: 730px;
+       margin-left: 199px;
     `
 
