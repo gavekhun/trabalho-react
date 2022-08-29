@@ -83,13 +83,13 @@ export const Acess = styled.Text`
       marginTop: 19px
 `
 export const Icon = styled.Image`
-     width: 43px;
-     height: 43px;
+     width: 28px;
+     height: 28px;
 
 `
 export const IconG = styled.Image`
-     width: 43px;
-     height: 43px;
+     width: 28px;
+     height: 28px;
      margin-left: 20;
 
 `
