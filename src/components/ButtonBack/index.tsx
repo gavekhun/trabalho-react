@@ -1,5 +1,5 @@
 import React from "react";
-import { TouchableOpacity} from "react-native";
+import { TouchableOpacity } from "react-native";
 import { ButtonStyle, ButtonText } from "./style";
 
 type Button ={ 
@@ -9,7 +9,7 @@ type Button ={
 }
 
 
-export default function ButtonAcess({ value, onPress}: Button) {
+export default function ButtonBack({ value, onPress}: Button) {
     return (
         <TouchableOpacity onPress={onPress}>
             <ButtonStyle>

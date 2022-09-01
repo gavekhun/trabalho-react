@@ -1,5 +1,5 @@
 import React from "react";
-import { TouchableOpacity, View } from "react-native";
+import { TouchableOpacity} from "react-native";
 import { ButtonStyle, ButtonText } from "./style";
 
 type Button ={ 
@@ -16,6 +16,7 @@ export default function ButtonInicio({ value, onPress}: Button) {
                 <ButtonText>
                     {value}
                 </ButtonText>
+                
             </ButtonStyle>
         </TouchableOpacity>
 

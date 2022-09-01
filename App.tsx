@@ -1,10 +1,7 @@
 import React from 'react';
 import {useFonts, KleeOne_400Regular, KleeOne_600SemiBold } from '@expo-google-fonts/klee-one';
 import AppLoading from 'expo-app-loading';
-import { View, Text, Image } from 'react-native';
-import  Inicio  from './src/pages/Inicio';
-import Login from './src/pages/Login';
-import styled from 'styled-components/native';
+import Router from './src/pages/Router/router';
 
 
 
@@ -18,7 +15,7 @@ export default function App() {
 
 return (
       <>
-        < Login/>
+        < Router/>
       
       </>
     

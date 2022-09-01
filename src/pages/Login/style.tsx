@@ -2,25 +2,18 @@ import styled from "styled-components/native";
 import { globalStyles } from "../../global/global";
 
 export const Wallpaper = styled.View`
-    background-color: #0B0E22;
+    background-color: ${globalStyles.colors.primaryBlue};
     flex: 1;
     flex-Direction: column;
     align-Items: center;
     
     
 `;
-export const ButtonBack = styled.Image`
-    width:30.45px;
-    height: 28px;
-    position: absolute;
-    margin-Top: 60px;
-    margin-Right:331px;
-    
-    
-
-`
-export const ButtonBacki = styled.TouchableOpacity`
-      margin-right: 331;
+  
+export const ButtonBacki = styled.View`
+      margin-right: 330;
+      margin-top: 51;
+      position: absolute;
 `
 
 export const LogoLogin = styled.Image`
@@ -32,7 +25,7 @@ export const LogoLogin = styled.Image`
 
 export const TextoCentro2 = styled.Text`
        font-Size:10px;
-       font-Family: KleeOne_600SemiBold;
+       font-Family: ${globalStyles.fonts.KleeBold};
        color: white;
 `
 
@@ -46,41 +39,41 @@ export const Email = styled.TextInput`
 export const CxInput = styled.View`
        
        margin-Top:69px;
-       margin-Left: 13,6%
-       
+         
 
 
 `
+
 export const CxPassword = styled.View`
         margin-Top:30px;
 `
 
 export const Forget = styled.Text`
       color: white;
-      font-family: KleeOne_600SemiBold;
+      font-family: ${globalStyles.fonts.KleeBold};
       font-size: 10;
       text-decoration: underline;
-      marginTop: 10px;
+      margin-top: 10px;
 
 `
 export const Inferiores = styled.Text`
       color: white;
-      font-family: KleeOne_600SemiBold;
+      font-family: ${globalStyles.fonts.KleeBold};
       font-size: 10;
-      marginTop: 5px
+      margin-top: 5px
 `
 export const Reg = styled.Text`
       color: white;
-      font-family: KleeOne_600SemiBold;
+      font-family:${globalStyles.fonts.KleeBold};
       font-size: 10;
-      marginTop: 16px
+      margin-top: 16px
 
 `
 export const Acess = styled.Text`
       color: white;
-      font-family: KleeOne_600SemiBold;
+      font-family:${globalStyles.fonts.KleeBold};
       font-size: 10;
-      marginTop: 19px
+      margin-top: 19px
 `
 export const Icon = styled.Image`
      width: 28px;
@@ -94,7 +87,7 @@ export const IconG = styled.Image`
 
 `
 export const IconsView = styled.View`
-     flexDirection: row;
+     flex-direction: row;
      justify-content: space-between;
      margin-top: 10;
 

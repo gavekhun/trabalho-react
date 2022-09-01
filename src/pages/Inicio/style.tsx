@@ -3,7 +3,7 @@ import { globalStyles } from "../../../src/global/global";
 
    export const Container = styled.View`
 
-      background: #0B0E22;
+      background: ${globalStyles.colors.primaryBlue};
       display: flex;
       flex: 1;
       align-items: center;
@@ -17,7 +17,7 @@ import { globalStyles } from "../../../src/global/global";
     
       color: white;
       font-size: 32px;
-      font-Family: KleeOne_600SemiBold;
+      font-Family: ${globalStyles.fonts.KleeBold};
       margin-left: 31px;
       
 
@@ -34,7 +34,7 @@ import { globalStyles } from "../../../src/global/global";
 
 
     `
-    export const ImagemPessoa = styled.ImageBackground`
+    export const ImagemPessoa = styled.Image`
        
        width:410px;
        height:440px;

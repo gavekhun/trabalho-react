@@ -1,31 +1,36 @@
 import styled from "styled-components/native";
 import React from "react";
-import { ButtonBack, CxInput, Email, LogoLogin, TextoCentro2, Wallpaper, CxPassword, Forget, Inferiores, Reg, Acess, Icon, IconsView, ButtonBacki, IconG } from "./style";
-import EmailInput from "../../components/EmailInput";
-import PasswordInput from "../../components/PasswordInput";
+import {CxInput, Email, LogoLogin, TextoCentro2, Wallpaper, CxPassword, Forget, Inferiores, Reg, Acess, Icon, IconsView, ButtonBacki, IconG } from "./style";
 import ButtonAcess from "../../components/ButtonAcess";
 import { TouchableOpacity } from "react-native";
-
+import { useNavigation } from "@react-navigation/native";
+import Inicio from "../Inicio";
+import InputText from "../../components/InputText";
+import ButtonBack from "../../components/ButtonBack";
 
 
 
 
 export const Login = () => {
+    const navigation = useNavigation();
     return(
         <Wallpaper>
-        <ButtonBacki>
-            <ButtonBack source={require('../../assets/BackButton.png')}/>
+            {/* Botão para voltar ao iniciar */}
+            <ButtonBacki>
+                <ButtonBack value={"<"}
+                onPress={() => navigation.navigate("Inicio")}/>
             </ButtonBacki>
-        
+        {/* Logo central */}
             <LogoLogin  source={require('../../assets/LogoReuse.png')}/>
                 <TextoCentro2>
                     Maior app de peças usadas e seminovas!
                 </TextoCentro2>
+                {/* TextInputs */}
                     <CxInput>
-                        <EmailInput/>
+                        <InputText value="Email:" placeholderText="  Digite seu email..."/>
                     </CxInput>
                         <CxPassword>
-                            <PasswordInput/>
+                            <InputText value="Senha:" placeholderText="  *********"/>
                         </CxPassword>
                             <Forget>
                                 <TouchableOpacity>
@@ -41,6 +46,7 @@ export const Login = () => {
                                 Registrar-se
                                 </TouchableOpacity>
                             </Reg>
+                            {/* Parte inferior ao acesso por outras plataformas */}
                             <Acess>
                                 Entre com:
                             </Acess>

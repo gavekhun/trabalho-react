@@ -13,4 +13,4 @@ export const globalStyles ={
 
 
 }
-// Não consigo usar
+
