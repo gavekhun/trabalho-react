@@ -6,8 +6,10 @@ import Router from './src/pages/Router/router';
 
 
 
+
+
 export default function App() {
-  let [fontsLoaded, error]= useFonts({KleeOne_400Regular, KleeOne_600SemiBold})
+  let [fontsLoaded, error]= useFonts({KleeOne_400Regular, KleeOne_600SemiBold, })
   if (!fontsLoaded){
     return <AppLoading />
     

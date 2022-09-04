@@ -1148,6 +1148,11 @@
   resolved "https://registry.yarnpkg.com/@emotion/unitless/-/unitless-0.7.5.tgz#77211291c1900a700b8a78cfafda3160d76949ed"
   integrity sha512-OWORNpfjMsSSUBVrRBVGECkhWcULOAJz9ZW8uK9qgxD+87M7jHRcvh/A96XXNhXTLmKcoYSQtBEX7lHMO7YRwg==
 
+"@expo-google-fonts/basic@^0.2.2":
+  version "0.2.2"
+  resolved "https://registry.yarnpkg.com/@expo-google-fonts/basic/-/basic-0.2.2.tgz#a6d34bc01a44a493033174c00e6fb63bbbc0ad4d"
+  integrity sha512-IyJKn2FPSGJCUvWQMgFe3Gd6mHC3tMQpYPUGRoVhYB75E8NqeRcnkL6NIUTCI7eTHx8QD85H0XSY7ac2fLHEvA==
+
 "@expo-google-fonts/klee-one@^0.2.2":
   version "0.2.2"
   resolved "https://registry.yarnpkg.com/@expo-google-fonts/klee-one/-/klee-one-0.2.2.tgz#c733e1566958474e644f69a900b74ea168764fd5"

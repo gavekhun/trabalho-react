@@ -51,3 +51,10 @@ import { globalStyles } from "../../../src/global/global";
        margin-left: 199px;
     `
 
+    export const BarraDados = styled.Image`
+      width: 353;
+      height: 20;
+      margin-top: 10;
+      position: absolute;
+    `
+

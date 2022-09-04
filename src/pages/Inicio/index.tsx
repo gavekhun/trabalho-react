@@ -1,14 +1,18 @@
 import { useNavigation } from "@react-navigation/native";
 import React from "react";
-import styled from "styled-components/native";
 import ButtonInicio from "../../components/ButtonInicio";
-import Login from "../Login";
-import { BotãoLogin, Container, ImagemPessoa, LogoReuse, TextoCentro } from "./style";
+import { BarraDados, 
+    BotãoLogin, 
+    Container, 
+    ImagemPessoa, 
+    LogoReuse, 
+    TextoCentro } from "./style";
 
 export const Inicio = () =>{
     const navigation = useNavigation();
     return (
         <Container>
+            <BarraDados source={require('../../assets/BarraDados.png')}/>
             <LogoReuse source={require('../../assets/LogoReuse.png')}/>
             <TextoCentro>
                 Maior app de peças

@@ -37,8 +37,8 @@ export const Email = styled.TextInput`
 
 `
 export const CxInput = styled.View`
-       
-       margin-Top:69px;
+       line-height: 80px;
+       margin-top: 69;
          
 
 

@@ -1,12 +1,25 @@
-import styled from "styled-components/native";
 import React from "react";
-import {CxInput, Email, LogoLogin, TextoCentro2, Wallpaper, CxPassword, Forget, Inferiores, Reg, Acess, Icon, IconsView, ButtonBacki, IconG } from "./style";
+import {CxInput,
+    LogoLogin,
+    TextoCentro2, 
+    Wallpaper, 
+    CxPassword, 
+    Forget, 
+    Inferiores, 
+    Reg, 
+    Acess, 
+    Icon, 
+    IconsView, 
+    ButtonBacki, 
+    IconG } from "./style";
 import ButtonAcess from "../../components/ButtonAcess";
 import { TouchableOpacity } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import Inicio from "../Inicio";
 import InputText from "../../components/InputText";
 import ButtonBack from "../../components/ButtonBack";
+import { BarraDados } from "../Inicio/style";
+
+
 
 
 
@@ -15,6 +28,8 @@ export const Login = () => {
     const navigation = useNavigation();
     return(
         <Wallpaper>
+            <BarraDados source={require('../../assets/BarraDados.png')}/>
+            
             {/* Botão para voltar ao iniciar */}
             <ButtonBacki>
                 <ButtonBack value={"<"}
@@ -37,12 +52,15 @@ export const Login = () => {
                                 Esqueceu a senha?
                                 </TouchableOpacity>
                             </Forget>
-                                <ButtonAcess value={'Entrar'} /> 
+                                <ButtonAcess value={'Entrar'}
+                                onPress={() => navigation.navigate('Home')} /> 
                             <Inferiores>
                                 Não tem cadastro? 
                             </Inferiores>
                             <Reg> 
-                                <TouchableOpacity>
+                                <TouchableOpacity
+                                onPress={() => navigation.navigate('Cadastro') }
+                                >
                                 Registrar-se
                                 </TouchableOpacity>
                             </Reg>

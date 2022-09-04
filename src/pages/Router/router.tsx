@@ -3,6 +3,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createNativeStackNavigator } from '@react-navigation/native-stack';
 import Inicio from "../Inicio";
 import Login from "../Login";
+import { Cadastro } from "../Cadastro";
 
 function Router( ){
     const Stack = createNativeStackNavigator();
@@ -27,6 +28,14 @@ function Router( ){
             }}
              
              />
+             <Stack.Screen
+             name="Cadastro"
+             component={Cadastro}
+             options={{
+                headerShown: false
+             }}
+             />
+             
         </Stack.Navigator>
     </NavigationContainer>
     

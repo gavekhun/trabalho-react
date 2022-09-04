@@ -8,7 +8,8 @@ export const globalStyles ={
     },
     fonts:{
         KleeReg: "KleeOne_400Regular",
-        KleeBold: "KleeOne_600SemiBold"
+        KleeBold: "KleeOne_600SemiBold",
+        
     }
 
 
