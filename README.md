@@ -20,7 +20,7 @@ Um marketplace voltado para o nincho de tecnologia para compra de peças usadas 
 Para rodar o projeto basta primeiramente clonar meu repositório na branch necessária:
 
 ```
-git clone https://gitlab.com/gabrieltiburcio0811/trabalho-react.git
+git clone https://github.com/gavekhun/trabalho-react
 ```  
 
 Assim que entrar na pasta de o comando:
