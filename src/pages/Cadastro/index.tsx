@@ -36,7 +36,7 @@ export const Cadastro = () => {
                     </Center>
                 <ButtonAcess
                 value="Entrar"
-                onPress={() => navigation.navigate('Home')}/>
+                onPress={() => navigation.navigate('')}/>
             
     </Wallpaper>
 

@@ -38,7 +38,7 @@ import { globalStyles } from "../../../src/global/global";
        
        width:410px;
        height:440px;
-       margin-top: 62 ;
+       margin-top: 145 ;
        position: relative;
        
        
@@ -47,7 +47,7 @@ import { globalStyles } from "../../../src/global/global";
     `
     export const BotãoLogin = styled.View`
        position: absolute;
-       margin-top: 730px;
+       margin-top: 790px;
        margin-left: 199px;
     `
 

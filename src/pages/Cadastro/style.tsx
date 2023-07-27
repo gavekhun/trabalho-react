@@ -34,7 +34,8 @@ export const TextCenter = styled.Text`
 
 export const Center = styled.View`
        line-height: 22;
-       margin-top: 34;
+       margin-top: 69;
+       margin-bottom: 80;
 `
 export const Register = styled.Text`
        color: white;
